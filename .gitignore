@@ -1,0 +1,21 @@
+node_modules
+frontend/node_modules
+frontend/.next
+frontend/out
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+.pnp.*
+coverage
+
+# Persisted agentic board state (durable across runs, but local to a machine)
+frontend/.data
+frontend/test-results
+frontend/playwright-report
+frontend/tsconfig.tsbuildinfo
+
+# Secrets. Next.js loads .env.local automatically, so this is where an API key
+# would naturally go - it must never be committed.
+.env
+.env.*
+!.env.example
